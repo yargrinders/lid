@@ -144,7 +144,7 @@ const questions = [
       }
     });
 
-    resultContainer.innerHTML = `<p>Вы правильно ответили на ${score} из 5 вопросов.</p>`;
+    resultContainer.innerHTML = `<p>Sie haben ${score} von 5 Fragen richtig beantwortet.</p>;
   }
 
   function shuffle(array) {
