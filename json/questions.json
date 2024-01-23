@@ -2,10 +2,10 @@
     {
       "text": "Frage №381: Welches Wappen gehört zum Bundesland Niedersachsen?<br><img src='https://www.lebenindeutschland.eu/img/questions/381.png' alt='DE'>",
       "options": [
-        "--1",
-        "--2",
-        "--3",
-        "--4"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "correctAnswer": 2
     },
@@ -72,10 +72,10 @@
     {
       "text": "Frage №388: Welches Bundesland ist Niedersachsen? <br><img src='https://www.lebenindeutschland.eu/img/questions/388.png' alt='DE'>",
       "options": [
-        "— 1",
-        "— 2",
-        "— 3",
-        "— 4"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "correctAnswer": 0
     },
