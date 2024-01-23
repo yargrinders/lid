@@ -17,7 +17,7 @@ let randomQuestions;
 
 function createQuiz() {
   const quizContainer = document.getElementById("quiz-container");
-  randomQuestions = shuffle([...questions]).slice(0, 5);
+  randomQuestions = shuffle([...questions]).slice(0, 10);
 
   randomQuestions.forEach((question, index) => {
     const questionDiv = document.createElement("div");
@@ -56,7 +56,7 @@ function checkAnswers() {
     }
   });
 
-  resultContainer.innerHTML = `<p>Sie haben ${score} von 5 Fragen richtig beantwortet.</p>`;
+  resultContainer.innerHTML = `<p>Sie haben ${score} von 10 Fragen richtig beantwortet.</p>`;
 }
 
 function shuffle(array) {
